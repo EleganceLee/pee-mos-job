@@ -1,0 +1,132 @@
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-top {
+    color: white;
+    background: #003881;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.items-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #3D689F;
+}
+
+.ml {
+    margin-left: 1rem;
+}
+
+.text-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D689F;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.input-search {
+    background-color: #3D689F;
+    border: 0px;
+    border-radius: 6px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.con-search {
+    padding-left: 0.5rem;
+    height: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D689F;
+    border: 0px;
+    border-radius: 6px;
+}
+
+
+.img-con {
+    position: relative;
+    height: 65vh;
+    width: 100vw;
+    background-image: url("./header-pic.png");
+}
+
+.nav-btn {
+    color: white;
+    padding: 3px 10px;
+    border: 0;
+    background-color: #05BB99;
+    box-shadow: 0px 0px 23px -3px rgba(5, 187, 153, 0.75);
+    -webkit-box-shadow: 0px 0px 23px -3px rgba(5, 187, 153, 0.75);
+    -moz-box-shadow: 0px 0px 23px -3px rgba(5, 187, 153, 0.75);
+    border-radius: 5px;
+}
+
+.nav-btn-header {
+    margin-bottom: 20px;
+    color: white;
+    padding: 3px 10px;
+    border: 0;
+    background-color: #88C9F1;
+    box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+}
+
+.header-text-con {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+.header-text-con>h1 {
+    color: white;
+    line-height: 4rem;
+    font-size: 4rem;
+}
+
+.header-text-con>p {
+    color: white;
+    /* line-height: 4rem; */
+    /* font-size: 4rem; */
+}
+
+.fac-img {
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
