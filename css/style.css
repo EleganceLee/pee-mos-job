@@ -299,7 +299,7 @@ header {
 
 
 footer {
-    height: 60vh;
+    height: 50vh;
     width: 100vw;
 
     background-repeat: no-repeat;
@@ -340,7 +340,7 @@ footer {
 
 .con-btn-footer {
     gap: 2rem;
-    margin-top: 4rem;
+    margin-top: 8rem;
     display: flex;
     text-align: center;
     justify-content: center;
