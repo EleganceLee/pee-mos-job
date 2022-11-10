@@ -102,6 +102,16 @@ header {
     animation: 2s ease-out 0s 1 Faded;
 }
 
+.btn-img {
+    position: absolute;
+    bottom: 3rem;
+    left: 4rem;
+}
+
+.btn-img:hover {
+    scale: 1.2;
+}
+
 @keyframes slideInFromLeft {
     0% {
         transform: translateX(-100%);
