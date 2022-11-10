@@ -20,6 +20,10 @@ header {
     position: relative;
 }
 
+.dropdown-menu>li {
+    margin: 2rem 0;
+}
+
 .nav-top {
     color: white;
     background: #003881;
