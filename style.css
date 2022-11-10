@@ -165,11 +165,67 @@ header {
     border-radius: 6px;
 }
 
+.card-con-item {
+    padding: 20px;
+    background-color: brown;
+    width: 3rem;
+    height: 6rem;
+    margin: 2rem 1rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    justify-content: space-between;
+
+}
+
+.item1 {
+    background: rgb(0, 111, 255);
+    background: linear-gradient(180deg, rgba(0, 111, 255, 1) 0%, rgba(56, 137, 236, 1) 100%);
+}
+
+.item2 {
+    background: rgb(0, 163, 255);
+    background: linear-gradient(180deg, rgba(0, 163, 255, 1) 0%, rgba(56, 171, 236, 1) 100%);
+}
+
+.item3 {
+    background: #FF6666;
+}
+
+.item4 {
+    background: #CE7FE1;
+}
+
+.item5 {
+    background: #FF62E6;
+}
+
+.item6 {
+    background: rgb(127, 225, 209);
+    background: linear-gradient(180deg, rgba(127, 225, 209, 1) 0%, rgba(5, 187, 153, 1) 100%);
+}
+
+.item7 {
+    background: rgb(241, 191, 11);
+    background: linear-gradient(45deg, rgba(241, 191, 11, 1) 0%, rgba(242, 125, 17, 1) 100%);
+}
+
+
+.card-con-item>img {
+    width: 2rem;
+    margin-bottom: 1rem;
+}
+
 
 .img-con {
     position: relative;
     height: 65vh;
     width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     background-image: url("./img/header-pic.png");
 }
 
