@@ -604,7 +604,7 @@ bottom: 0;
 
 .filter-con {
     width: 100%;
-    height: 900px;
+    height: 1500px;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../img/section-filter/bg.png");
@@ -635,4 +635,10 @@ bottom: 0;
 .btn-filter-round:hover{
    background-color: #006FFF;
    color:white;
+}
+
+.btn-sss{
+    color: #006FFF;
+    background-color: #1075fa1d;
+    border: 0;
 }
