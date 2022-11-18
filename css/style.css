@@ -258,10 +258,14 @@ header {
     padding: 3px 10px;
     border: 0;
     background-color: #05BB99;
+
+    border-radius: 5px;
+}
+
+.nav-btn:hover {
     box-shadow: 0px 0px 23px -3px rgba(5, 187, 153, 0.75);
     -webkit-box-shadow: 0px 0px 23px -3px rgba(5, 187, 153, 0.75);
     -moz-box-shadow: 0px 0px 23px -3px rgba(5, 187, 153, 0.75);
-    border-radius: 5px;
 }
 
 .nav-btn-header {
@@ -557,9 +561,15 @@ bottom: 0;
         width: 150px;
         min-height: 200px;
     } */
+    .nav-btn {
+        font-size: 0.8rem !important;
+    }
+    .navbar>p{
+        font-size: 0.7rem !important;
+    }
 
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
     section{
         margin: 0 15rem;
     }
@@ -590,4 +600,39 @@ bottom: 0;
 
 .card-news {
     width: 200px;
+}
+
+.filter-con {
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/section-filter/bg.png");
+}
+
+.filter-nav-btn {
+    height: 5rem;
+    border-bottom: 1px solid gray;
+    
+}
+.filter-nav-btn:hover {
+   background-color: #38aaec4f;
+   border-bottom: 1px solid blue;
+}
+
+.filter-nav-btn.active {
+   background-color: #38aaec4f;
+   border-bottom: 1px solid blue;
+}
+
+.btn-filter-round{
+    border-radius: 30px;
+    height: 4rem;
+    border: 0px;
+    width: 23rem;
+}
+
+.btn-filter-round:hover{
+   background-color: #006FFF;
+   color:white;
 }
